@@ -5,7 +5,7 @@ def my_collect(array)
   while i < array.length
     yield array[i]
     array2 << array[i].upcase
-    array3 << array[i].
+    array3 << array[i].capitalize
     i = i + 1
 end
     array2 
