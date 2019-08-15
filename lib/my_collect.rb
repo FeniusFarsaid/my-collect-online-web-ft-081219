@@ -3,7 +3,7 @@ def my_collect(array)
   array2 =[]
   while i < array.length
     yield array[i]
-    array2 << array[i]
+    array2 << array[i].upcase
     i = i + 1
 end
     array2 
